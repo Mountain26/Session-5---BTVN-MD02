@@ -1,7 +1,7 @@
 #include <stdio.h>
 	
 int main() {
-    int a, b, USCLN;
+    int a, b, UCLN;
 
 	printf("Moi ban nhap vao so nguyen duong thu nhat: ");
     scanf("%d", &a);
@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &b);
    
    if(a==0 || b==0){
-   		USCLN = a + b;
+   		UCLN = a + b;
    }else{
    		while(a!=b){
    		if(a>b){
@@ -17,10 +17,10 @@ int main() {
 		   }else{
 		   	b = b - a;
 		   }
-		   USCLN = a;
+		   UCLN = a;
 		   }
    		}
-    printf("Uoc chung lon nhat la: %d\n",USCLN);
+    printf("Uoc chung lon nhat la: %d\n",UCLN);
 
     return 0;
 }
